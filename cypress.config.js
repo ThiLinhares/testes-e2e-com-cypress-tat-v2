@@ -1,15 +1,14 @@
+/* eslint-disable no-trailing-spaces */
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-  e2e: {
-    chromeWebSecurity: false,
+  chromeWebSecurity: false,
+  e2e: {  
     defaultCommandTimeout: 10000,
     baseUrl: 'https://notes-serverless-app.com',
     env: {
       viewportWidthBreakpoint: 768,
     },
-    //setupNodeEvents(on, config) {
-    // implement node event listeners here
-    //},
-  },
+  }, 
+  projectId: "3ixuzh",
 })
