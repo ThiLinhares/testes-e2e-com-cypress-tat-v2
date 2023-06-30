@@ -21,6 +21,6 @@
     "cypress-mailosaur": "^2.13.0",
     "eslint": "^8.43.0",
     "eslint-plugin-cypress": "^2.13.3",
-    "eslint-plugin-react": "^7.32.2"
+      "eslint-plugin-react": "^7.32.2"
   }
 }

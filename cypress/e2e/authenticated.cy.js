@@ -1,4 +1,4 @@
-// cypress/e2e/authenticated.cy.js
+/// <reference types="cypress" />
 
 import { faker } from '@faker-js/faker/locale/en'
 
