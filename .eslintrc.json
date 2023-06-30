@@ -1,6 +1,11 @@
 // .eslintrc.json
 
 {
+
+    "globals": {
+        "cy": true
+      },
+
     "env": {
         "browser": true,
         "commonjs": true,
@@ -10,7 +15,6 @@
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 12
-      
     },
     "rules": {
         "indent": [
@@ -33,4 +37,6 @@
             "error"
         ]
     }
+
+    
 }
