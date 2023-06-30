@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 
 Cypress.Commands.add('fillSignupFormAndSubmit', (email, password) => {

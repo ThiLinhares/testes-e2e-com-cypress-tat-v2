@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /// <reference types="cypress" />
 
 import { faker } from '@faker-js/faker/locale/en'
