@@ -10,5 +10,5 @@ module.exports = defineConfig({
       viewportWidthBreakpoint: 768,
     },
   }, 
-  projectId: "3ixuzh",
+  projectId: '3ixuzh',
 })
