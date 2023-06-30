@@ -1,8 +1,8 @@
 /* eslint-disable indent */
-/* eslint-disable no-undef */
+import registerCypressGrep from '@cypress/grep/src/support'
+registerCypressGrep()
 
 import './commands'
-
 
 import 'cypress-mailosaur'
 
